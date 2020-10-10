@@ -1,27 +1,58 @@
 .head {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightblue;
 }
 
 h1 {
-    margin: 1em 0 1em 2em; 
+  margin: 1em 0 1em 2em;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
+  margin: 0;
+  font-size: 9em;
 }
 
 .head__list {
-    display: flex;
-    flex-direction: row;
-    margin: 1em 2em 1em 0;
+  display: flex;
+  flex-direction: row;
+  margin: 1em 2em 1em 0;
 }
 
 .head__list__elements {
-    margin: .5em;
-    list-style-type: none;
-    font-size: 1.5em;
+  margin: 0.5em;
+  list-style-type: none;
+  font-size: 1.5em;
 }
 
+.head__country__container {
+  display: flex;
+  justify-content: center;
+  align-items: ;
+}
+
+.head__country__thailand {
+  background-image: url("../thailand.pics/huts-on-river.jpeg");
+}
+.head__country__greece {
+  background-image: url("../background/greece.jpeg");
+}
+.head__country__argentina {
+  background-image: url("../background/arg.jpeg");
+}
+.head__country__iceland {
+  background-image: url("../background/ice.jpeg");
+}
+
+.head__country__thailand,
+.head__country__greece,
+.head__country__argentina,
+.head__country__iceland {
+  height: 35vh;
+  width: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: antiquewhite;
+}
